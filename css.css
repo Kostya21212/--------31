@@ -1,0 +1,195 @@
+
+body{
+    background-image:url(./image/3048207.jpg)
+}
+.category1{
+   
+    max-width: 150px;
+    max-height: 150px;
+    margin-bottom: 20px;
+}
+.span{
+    color:white;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-top: 20px;
+}
+.container{
+    display: flex;
+    /* gap: 30px; */
+    flex-direction: column;
+}
+#modalTitle{
+    color: rgb(1, 1, 1);
+    margin: 0 auto;
+}
+.technics{
+    width: 850px;
+    height: 850px;
+    
+}
+.modal-content{
+    background-color:#0b0425;
+}
+.styleCategories{
+    font-weight: 600;
+    font-size: 25px;
+}
+#modalProductList{
+    padding-top: 30px;
+    border-radius: 15px;
+    background-color: rgb(36 9 126);
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.category1{
+    background-color:#0b0425
+}
+.categories {
+    list-style-type: none;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    color: white;
+}
+#categoryList{
+    list-style-type: none;
+    background-color: rgba(225, 255, 255, 0);
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgb(40 23 100);
+}
+/* Стилі для середнього блоку з товарами */
+.products {
+    float: left;
+    width: 300px;
+    padding: 10px;
+}
+/* Стилі для правого блоку з інформацією про товар */
+.product-info {
+    float: left;
+    width: 400px;
+    padding: 10px;
+}
+/* Стилі для кнопки купівлі */
+.buy-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.ul-list{
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items:center;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 30px;
+    background-color:blue;
+    color: white;
+    border-radius: 20px;
+}
+.menu-li{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+    font-weight: 800;
+}
+.categoryBtn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent; /* Прозорий фон кнопки */
+  }
+
+  /* Стилі для модального вікна */
+  .modal {
+    display: none; /* По замовчуванню ховаємо модальне вікно */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5); /* Півпрозорий чорний фон */
+  }
+
+  .modal-content {
+    background-color: #0c0426;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%; /* Збільшуємо ширину модального вмісту */
+    
+  }
+
+  p {
+    max-width: 400px;
+    font-size: 14px;
+    font-weight: 300;
+    width: auto; /* Параметр ширини тексту автоматично */
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* Стилі для продуктів */
+  .menu-li {
+    padding-top: 30px;
+  padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Вирівнювання елементів по краях */
+  }
+
+  .menu-li img {
+    width: 400px; /* Збільшуємо розмір зображень */
+    height: auto;
+    margin-right: 20px;
+  }
+
+  .menu-li p {
+    margin: 0; /* Звичайний текст, не жирний */
+    flex: 1;
+    text-overflow: ellipsis;
+    
+  }
+
+  button {
+    background-color: #1848b8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #2a14bd;;
+  }

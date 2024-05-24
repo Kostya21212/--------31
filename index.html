@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css.css">
+  <title>Онлайн-магазин</title>
+</head>
+<body>
+  <div class="categories">
+    <!-- Лівий блок з категоріями -->
+    <div id="categoryList">
+      <button class="categoryBtn" data-category="electronics">
+        <span class="span">Техніка</span>
+      </button>
+      <button class="categoryBtn" data-category="clothing">
+        <span class="span">Одяг</span>
+      </button>
+      <button class="categoryBtn" data-category="books">
+        <span class="span">Книги</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Модальне вікно для товарів -->
+  <div id="productModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modalTitle" style="text-align: center;"></h2>
+      <ul id="modalProductList"></ul>
+    </div>
+  </div>
+  <script src="./js.js"></script>
+</body>
+</html>
