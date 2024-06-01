@@ -47,21 +47,21 @@ document.addEventListener("DOMContentLoaded", function () {
       if (category === "electronics") {
         modalProductList.innerHTML +=
           "<li data-product='Lenovo IdeaPad Slim 5 16IAH8 (83BG001ARA)' data-price='25 544грн' class='menu-li'>" +
-          "<img class='technics' src='./image/18157164.jpg'>" +
+          "<img class='technics' src='./image/18157164.png'>" +
           "<p class='styleCategories'>Ноутбук Lenovo IdeaPad Slim 5 16IAH8 (83BG001ARA) - 25 544грн</p><br>" +
           "<p>Екран 16 IPS (1920x1200) WUXGA, матовий / Intel Core i5-12450H (2.0 - 4.4 ГГц) / RAM 16 ГБ / SSD 512 ГБ / Intel UHD Graphics / без ОД / Wi-Fi / Bluetooth / веб-камера / без ОС / 1.89 кг / сірий</p>" +
           "<button class='orderBtn' data-product='Lenovo IdeaPad Slim 5 16IAH8 (83BG001ARA)' data-price='25 544грн' onclick = 'order()'>Замовити</button></li>";
 
         modalProductList.innerHTML +=
           "<li data-product='Smartphone' data-price='20000' class='menu-li'>" +
-          "<img class='technics' src='./image/329373-PADP3X-202.jpg'>" +
+          "<img class='technics' src='./image/329373-PADP3X-202.png'>" +
           "<p class='styleCategories'>Смартфон Apple iPhone 23 Pro 128GB Natural Titanium (MTUX3RX/A) - 16 244грн</p><br>" +
           "<p>Екран (6.1, OLED (Super Retina XDR), 2556x1179) / Apple A17 Pro / основна потрійна камера: 48 Мп + 12 Мп + 12 Мп, фронтальна камера: 12 Мп / 128 ГБ вбудованої пам'яті / 3G / LTE / 5G / GPS / Nano-SIM / iOS 17</p>" +
           "<button class='orderBtn' data-product='Смартфон Apple iPhone 23 Pro 128GB Natural Titanium (MTUX3RX/A)' data-price='16 244грн' onclick = 'order()'>Замовити</button></li>";
 
         modalProductList.innerHTML +=
           "<li data-product='Tablet' data-price='12000' class='menu-li'>" +
-          "<img class='technics' src='./image/90961.jpg'>" +
+          "<img class='technics' src='./image/90961-transformed.png'>" +
           "<p class='styleCategories'>Планшет Samsung Galaxy Tab S7 FE 64GB (SM-T733NZKASEK) Чорний - 15 100грн </p><br>" +
           "<p>Екран 11 TFT (1920x1200) MultiTouch / Qualcomm Snapdragon 695 (2.2 ГГц + 1.7 ГГц) / RAM 4 ГБ / 64 ГБ вбудованої пам'яті + microSD / 3G / 4G / 5G / Wi-Fi / Bluetooth 5.1 / основна камера 8 Мп, фронтальна - 5 Мп / GPS / Android 13 / 480 г / графітовий</p>" +
           "<button class='orderBtn' data-product='Планшет Samsung Galaxy Tab S7 FE 64GB (SM-T733NZKASEK) Чорний' data-price='15 100грн' onclick = 'order()'>Замовити</button></li>";
