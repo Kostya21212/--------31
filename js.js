@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "<li data-product='Dress' data-price='1200' class='menu-li'>" +
           "<img class='technics' src='./image/301555738.webp'>" +
           "<p class='styleCategories'>Плаття Gepur 38262 XS Біле (5000023801870) - 1200 грн</p><br>" +
-          "<p>Країна реєстрації бренду Україна Cтильне та зручне плаття зроблено спеціально для вас! Отримайте задоволення від своєї красоти  наповну!</p>" +
+          "<p> Cтильне та зручне плаття зроблено спеціально для вас! Отримайте задоволення від своєї красоти  наповну!</p>" +
           "<button class='orderBtn' data-product='Плаття Gepur 38262 XS Біле (5000023801870)' data-price='1200 грн' onclick = 'order()'>Замовити</button></li>";
       } else if (category === "books") {
         modalProductList.innerHTML +=
