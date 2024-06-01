@@ -148,9 +148,8 @@ document.getElementById("registrationForm").addEventListener("submit", function(
     productModal.style.display = 'none';
   }
   document.getElementById("orderForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // Зупиняємо відправку форми
-  
-    // Отримуємо значення всіх полів форми
+    event.preventDefault(); 
+ 
     const customerName = document.getElementById('customerName').value;
     const city = document.getElementById('city').value;
     const deliveryBranch = document.getElementById('deliveryBranch').value;
@@ -158,16 +157,14 @@ document.getElementById("registrationForm").addEventListener("submit", function(
     const quantity = document.getElementById('quantity').value;
     const comment = document.getElementById('comment').value;
   
-    // Отримуємо дані про продукт
+    
     const productName = event.currentTarget.querySelectorAll('.styleCategories').value;
   
-    // Валідація: перевірка, чи всі поля заповнені
     if (customerName === '' || city === '' || deliveryBranch === '' || paymentMethod === '' || quantity === '' || comment === '') {
       alert('Будь ласка, заповніть всі поля форми замовлення.');
-      return; // Зупиняємо відправку форми, якщо не всі поля заповнені
+      return; 
     }
   
-    // Створюємо текст алерту з введеними даними та інформацією про продукт
     const alertText = `
         ПІБ покупця: ${customerName}
         Місто: ${city}
@@ -177,7 +174,7 @@ document.getElementById("registrationForm").addEventListener("submit", function(
         Коментар: ${comment}
     `;
   
-    // Відображення алерту з введеними даними та інформацією про продукт
+  
     alert(alertText);
   });
   
