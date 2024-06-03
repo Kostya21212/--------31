@@ -202,7 +202,7 @@ document.getElementById('info-weather-block').style.display = 'block'
       // Встановлюємо значення тегів <p> згідно з даними погоди
     
      document.getElementById('city').textContent = `Місто: ${city}`
-      document.getElementById('temperature').textContent = `Температура: ${weatherData.main.temp}°C`;
+       document.getElementById('temperature').textContent = `Температура: ${weatherData.main.temp}°C`;
       document.getElementById('pressure').textContent = `Тиск: ${weatherData.main.pressure} hPa`;
       document.getElementById('description').textContent = `Опис: ${weatherData.weather[0].description}`;
       document.getElementById('humidity').textContent = `Вологість: ${weatherData.main.humidity}%`;
