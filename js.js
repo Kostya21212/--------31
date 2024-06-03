@@ -189,7 +189,7 @@ function showCityInput() {
 function getWeather() {
   const city = document.getElementById('cityInput').value;
   const apiKey = '5d066958a60d315387d9492393935c19';
-  const apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&APPID=${apiKey}`;
+  const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&APPID=${apiKey}`;
 document.getElementById('info-weather-block').style.display = 'block'
   fetch(apiUrl)
     .then(response => {
