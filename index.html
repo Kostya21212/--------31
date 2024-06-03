@@ -20,11 +20,35 @@
       <button class="categoryBtn" data-category="books">
         <span class="span">Книги</span>
       </button>
+      <button class="weather" onclick="showCityInput()">
+        <span class="span">Погода <img class="weather-img" src="./image/10d.png" alt="weather"></span>
+      </button>
       <button id="registrationBtn">
         <span class="span">Реєстрація</span>
       </button>
+      
     </div>
   </div>
+  
+
+  <div id="weatherContainer" style="display: none;">
+    <span class="close" onclick="closeWeatherInfo()">×</span>
+   <div><input type="text" id="cityInput" placeholder="Введіть назву міста"><button onclick="getWeather()">Показати погоду</button></div> 
+      <div id ='info-weather-block'>
+      <h3>Місто<p class="text-info" id="city"></p></h3>
+      <h3>Температура</h3>  <p class="text-info" id="temperature"></p>
+      <h3>Тиск</h3>  <p class="text-info" id="pressure"></p>
+      <h3>Опис</h3>  <p class="text-info" id="description"></p>
+      <h3>Вологість</h3>  <p class="text-info" id="humidity"></p>
+      <h3>Швидкість вітру</h3>  <p class="text-info" id="windSpeed"></p>
+      <h3>Напрям вітру</h3>  <p class="text-info" id="windDirection"></p>
+      </div>  
+        
+   
+</div>
+    
+  
+  
   <div id="productModal" class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>
@@ -106,7 +130,7 @@
         <input type="checkbox" id="language3" name="language" value="Англійська">
         <label for="language3">Англійська</label><br><br>
 
-        <button type="submit" class="submit" onclick="order()">Зберегти</button>
+        <button type="submit" class="submit">Зберегти</button>
       </form>
     </div>
   </div>
